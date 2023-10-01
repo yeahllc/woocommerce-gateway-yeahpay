@@ -211,7 +211,7 @@ function init_yeahpay_gateway() {
 
          
             // Define the API endpoint
-            $api_endpoint = 'https://pay.globalpaygate.com/payment-invoices';
+            $api_endpoint = 'https://papi.yeah.store/payment-invoices';
         
             // Retrieve Account ID (Login) and API Key (Password) from admin options
             $account_id = $this->account_id; // Use the admin option for Account ID
