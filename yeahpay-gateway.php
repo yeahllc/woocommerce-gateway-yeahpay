@@ -92,7 +92,7 @@ function init_yeahpay_gateway() {
                     'title' => 'Callback URL',
                     'type' => 'text',
                     'description' => 'Enter your Callback URL.',
-                    'default' => '',
+                    'default' => plugin_dir_url( __FILE__ ).'response-callback.php',
                 ),
                 'live_public_key' => array(
                     'title' => 'Live Public Key',
